@@ -7,6 +7,6 @@ LABEL maintainer="erosarosario@cifpfbmoll.eu"
 
 WORKDIR $HOME/app
 
-COPY ./gildedrose/target/gildedrose-1.0-SNAPSHOT.jar ./app/gildedrose-1.0-SNAPSHOT.jar
+COPY gildedrose/target/gildedrose-1.0-SNAPSHOT.jar ./app/gildedrose-1.0-SNAPSHOT.jar
 
 CMD ["java", "-jar", "/app/gildedrose-1.0-SNAPSHOT.jar"]
